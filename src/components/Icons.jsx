@@ -1,8 +1,8 @@
 import React from "react";
-import windIcon from "../assets/wind.png";
+import windIcon from "../assets/Wind.png";
 import humidityIcon from "../assets/humidity.png";
 import visibilityIcon from "../assets/visibility.png";
-import sunriseIcon from "../assets/sunrise.png";
+import sunriseIcon from "../assets/Sunrise.png";
 import sunsetIcon from "../assets/Sunset.png";
 
 const Icon = ({ src, alt, className }) => (
