@@ -97,7 +97,7 @@ const App = () => {
  rounded-x1 shadow-2xl p-8 max-w-md text-white w-full border border-white/30 relative z-10"
         >
           <h1 className="text-4xl font-extrabold text-center mb-6">
-            Wheather App
+            Weather App
           </h1>
           {!weather ? (
             <form onSubmit={handleSearch} className="flex flex-col relative">
