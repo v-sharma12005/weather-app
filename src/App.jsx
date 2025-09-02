@@ -59,6 +59,7 @@ const App = () => {
       if (!response.ok)
         throw new Error((await response.json()).message || "City not Found");
       const data = await response.json();
+      
       setWeather(data);
       setCity(name || data.name);
       setSuggetion([]);
@@ -159,7 +160,7 @@ const App = () => {
                 </button>
               </div>
               <img
-                src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
+                src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
                 alt={weather.weather[0].description}
                 className=" mx-auto my-4 animate-bounce"
               />
